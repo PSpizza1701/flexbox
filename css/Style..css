@@ -1,0 +1,101 @@
+<!DOCTYPE CSS>
+	<css
+
+body {
+	font-family: sans-serif;
+	color: #ab3939;
+	background: url('.../.../img/teslas.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+#heading {
+	padding: 42px;
+	background-color: #e8e8e8;
+	-webkit-animation: myAnimation 5s infinite;
+	animation: myAnimation 5s infinite;
+	border: 1px solid #333;
+}
+@-webkit-keyframes "myAnimation" 
+   { 50% {
+	background-color: #d3d3d3;
+   }
+}
+
+@keyframes "myAnimation" 
+   { 50% {
+   	 background-color: #d3d3d3;
+   	}
+}
+#page-title {
+	font-family: sans-serif;
+	color: #ab3939;
+}
+.content{
+	font-family: snas-serif;
+	font-size: 0.8em;
+	color: #767676;
+	background-color: #e8e8e8;
+	padding: 20px;
+	border-left: 10px solid #ab3939
+}
+#sub {
+	background-color: #e8e8e8;
+	margin-top: 10px;
+	padding: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width: 50%;
+}
+h1 {
+	font-family: "Montserrat", sans-serif;
+}
+
+a:#link {
+color: black;	
+}
+
+a:link {
+	color: green;
+}
+
+a:hover {
+	color: #ab3939;
+}
+
+a:active {
+	color: blue;
+}
+
+.content-bullets {
+	padding-left: 40px;
+	font-size: 1.5em;
+	list-style: square;
+}
+
+th {
+	background-color: black;
+	color: white;
+}
+th, td {
+	padding: 15px;
+	text-align: left;
+	border: 1px solid grey;
+	background-color: red; 
+}
+tr:nth-child(even) {
+background-color: brown;
+color: white;
+}
+
+#blocks {
+	position: absolute;
+}
+
+.block {
+	float: left;
+	height: 140px;
+	width: 250px;
+	background-color: #ab3939;
+}

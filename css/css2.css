@@ -1,0 +1,65 @@
+
+.package {
+	-webkit-transition: all 250ms ease-out 1s;
+	-moz-transition: all 250ms ease-out 1s;
+	-o-transition: all 250ms ease-out 1s;
+	transition: all 250ms ease-out 1s; 
+	color: green;
+	background-color: #e8e8e8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 20px;
+	margin: 50px;
+	font-size: 1.2em;
+	border-bottom: 10px solid green;
+	width: 200px;
+}
+
+#pricing-table {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.package:hover {
+	color: white;
+	background-color: green;
+	cursor: pointer;
+}
+
+#blocks {
+	position: absolute;
+}
+
+.block {
+	height: 140px;
+	width: 250px;
+	background-color: #ab3939;
+	margin: 20px;
+	float: left;
+}
+
+th {
+	background-color: black;
+	color: white;
+
+}
+
+table {
+	font-family: sans-serif;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td,th {
+	padding: 15px;
+	text-align: left;
+	border: 1px solid grey;
+}
+
+tr:nth-child(even) {
+	background-color: green;
+	color: white;	
+	}
